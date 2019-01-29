@@ -15,7 +15,7 @@ namespace Whose_Turn_Is_It_Anyway.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This software is for taking turns";
 
             return View();
         }
