@@ -29,5 +29,9 @@ namespace Whose_Turn_Is_It_Anyway.Models
         {
             return new ApplicationDbContext();
         }
+
+        //public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }
+//using System.Data.Entity;
+//public System.Data.Entity.DbSet<Whose_Turn_Is_It_Anyway.Models.ApplicationUser> ApplicationUsers { get; set; }

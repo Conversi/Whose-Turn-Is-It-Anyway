@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+
 
 namespace Whose_Turn_Is_It_Anyway.Controllers
 {
@@ -24,6 +21,16 @@ namespace Whose_Turn_Is_It_Anyway.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        [Authorize]
+        public ActionResult SharedTask()
+        {
+            return View();
+        }
+        public ActionResult Create()
+        {
             return View();
         }
     }
