@@ -29,7 +29,7 @@ namespace Whose_Turn_Is_It_Anyway.Controllers
         {
             return View();
         }
-        public ActionResult Create()
+        public ActionResult Created()
         {
             return View();
         }
